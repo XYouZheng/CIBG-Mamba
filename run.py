@@ -18,7 +18,7 @@ if __name__ == '__main__':
     # # basic config
     parser.add_argument('--is_training', type=int, required=True, default=1, help='status')
     parser.add_argument('--model_id', type=str, required=True, default='test', help='model id')
-    parser.add_argument('--model', type=str, required=True, default='S_Mamba',
+    parser.add_argument('--model', type=str, required=True, default='CIBG-Mamba',
                         help='model name, options: [iTransformer, iInformer, iReformer, iFlowformer, iFlashformer,S_Mamba ]')
     parser.add_argument('--version', type=str, default='Fourier',
                         help='for FEDformer, there are two versions to choose, options: [Fourier, Wavelets]')
