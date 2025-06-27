@@ -1,5 +1,5 @@
 import torch.nn as nn
-from mamba_ssm import Mamba,BidirectionalMamba
+from mamba_ssm import Mamba
 import torch
 from einops import rearrange
 
